@@ -1,0 +1,99 @@
+
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 50px; /* Increased padding */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  width: 100%;
+  max-width: 400px; /* Increased max-width */
+  text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+  }
+  
+  .login-form input,
+  .login-form button {
+    padding: 8px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+
+  /* Styling for buttons */
+button {
+  padding: 15px 25px; /* Larger buttons */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  
+}
+
+.reset-button {
+  background-color: #f44336; /* Red background for reset */
+  color: #fff;
+}
+
+.submit-button {
+  background-color: #007bff; /* Primary blue background for submit */
+  color: #fff;
+  
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.form-group-inline {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-group-inline label {
+    width: 100px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .form-group-inline input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password a {
+    font-size: 0.9rem;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }

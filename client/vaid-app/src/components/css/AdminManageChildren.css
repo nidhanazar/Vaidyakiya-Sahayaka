@@ -1,0 +1,28 @@
+.children-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .child-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    background-color: #f9f9f9;
+  }
+  
+  .child-card button {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .child-card button:hover {
+    background-color: darkred;
+  }
+
+  
+  

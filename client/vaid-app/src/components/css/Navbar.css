@@ -1,0 +1,67 @@
+.header {
+    background-color: #004c99;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Style for the logout button */
+.logout-btn {
+  background: none;
+  border: none;
+  color: #007bff; /* Same color as links */
+  text-decoration: underline; /* Add underline to mimic link style */
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0; /* Remove padding to make it look like a link */
+  display: inline; /* Align it properly with other links */
+}
+
+.logout-btn:hover {
+  color: #0056b3; /* Darker shade on hover */
+  text-decoration: underline;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between logo and title */
+}
+
+.logo-image {
+  height: 50px;
+  width: 50px;
+}
+
+.app-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333; /* Adjust color as needed */
+  margin: 0; /* Remove default h1 margin */
+}

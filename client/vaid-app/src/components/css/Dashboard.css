@@ -1,0 +1,92 @@
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust the layout based on screen size */
+    gap: 20px; /* Space between boxes */
+    padding: 30px; /* Padding around the grid */
+    justify-items: center; /* Center the boxes horizontally */
+    align-items: center; /* Center the boxes vertically */
+    max-width: 1200px; /* Max width for large screens */
+    margin: 0 auto; /* Center the grid container in the viewport */
+}
+
+.dashboard-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.dashboard-box:hover {
+    transform: scale(1.05);
+    background-color: #e5f4ff;
+}
+
+.dashboard-box img {
+    margin-bottom: 10px;
+}
+
+/* Centering the search bar */
+.search-bar-container {
+    display: flex;
+    justify-content: center; /* Center the search bar */
+    padding: 20px 10px;
+    gap: 10px;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 20px; /* Space between search bar and dashboard */
+    width: 100%;
+    max-width: 600px; /* Limit the width of the search bar */
+    margin: 0 auto; /* Center it horizontally */
+}
+
+/* Styling for search input and button */
+.search-input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    flex: 1;
+    max-width: 400px; /* Limiting input width */
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+/* Make sure to adjust hospital results card if it's displayed */
+.hospital-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.hospital-card {
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center; /* Center text in hospital card */
+}

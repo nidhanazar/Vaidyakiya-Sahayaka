@@ -1,0 +1,38 @@
+.search-history-container {
+    padding: 2rem;
+    background: linear-gradient(to bottom right, #eef2ff, #f8fafc);
+    min-height: 100vh;
+}
+
+.search-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.search-entry {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-left: 4px solid #3b82f6;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.search-entry:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.entry-label {
+    font-weight: bold;
+    color: #111827;
+}
+
+.entry-date {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 0.5rem;
+}
